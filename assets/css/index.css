@@ -1,0 +1,315 @@
+@font-face {
+  font-family: 'jameel';
+  src: url('Jameel.ttf')  format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.bottom{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'jameel';
+}
+/* Main Body Conatiner */
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: url('');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+/*Header logo img and Excercise Title Image  */
+header .logo{
+    width: 35%;
+}
+header .title-img{
+    width: 55%;
+}
+.title-img h1{
+  background: orange;
+  padding: 20px;
+  border-radius: 20px;
+  color: #fff; 
+}
+/* main Body */
+.main .units div{
+  padding: 15px 20px;
+  background: darkblue;
+  margin: 20px;
+  color: #fff;
+  font-weight: 600;
+  font-size: larger;
+}
+.main .drop-box{
+    margin: 10px 0px;
+    height: 40vh;
+}
+.main .drop-box img{
+  height: 200px;
+}
+.main .drop-box .equal , .main .drop-box #plus{
+    width: 80px;
+    height: 60px;
+    margin: 0px 10px;
+  }
+  .main .drop-box #plus{
+    width: 100px;
+    height: 80px;
+    margin: 0px 10px;
+  } 
+.bottom img{
+  margin-top: 30px;
+width: 130px;
+height: 80px;
+}
+.bottom img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.title {
+  display: flex;
+  font-size: 2.5rem;
+}
+.drop{
+  width: 150px;
+  padding: 10px;
+  border: 2px dashed orange;
+  margin: 0px 15px;
+
+}
+.drop img{
+  width: 100px !important;
+  height: 80px !important;
+}
+.drop.hovering {
+  background-color: #F6BF66;
+}
+#gif{
+  width: 50px;
+  height: 40px;
+}
+/* Media Querys */
+/* Extra smaller devices (phones, 320px and down) */
+@media only screen and (max-width: 320px) {
+ .drop-box{
+   flex-wrap: wrap;
+ }
+ .main .question{
+   font: 0.6rem;
+ }
+ .main .drop-box{
+  height: 20vh;
+}
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  header .logo img{
+   width: 100px;
+   margin-left: 10px;
+  }
+  .title-img h1{
+    background: orange;
+            padding: 10px;
+            border-radius: 20px;
+    font-size: 1.5rem;
+            color: #fff; 
+  }
+  .main .question{
+    margin: 30px 10px;
+  }
+  .main .drop-box{
+    height: 60vh;
+  }
+  .main .drop-box img{
+    width: 140px;
+    height: 140px;
+  }
+  .main .drop-box .equal{
+   width: 30px;
+   height: 30px;
+  }
+ .main .drop-box #plus{
+    width: 60px;
+    height: 50px;
+    margin: 0px;
+  }
+  .main input{
+    width: 50px;
+  }
+  .title h2{
+    font-size: 2rem !important;
+  }
+  .drop{
+    height: 60px !important;
+  }
+  .bottom img {
+    width: 100px !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  header .logo img{
+    width: 180px;
+    margin-left: 10px;
+   }
+   .title-img h1{
+    background: orange;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff; 
+   }
+   .main .question{
+     margin: 30px 10px;
+   }
+   .main .drop-box img{
+     width: 180px;
+     height: 180px;
+   }
+   .main .drop-box .equal{
+    width: 30px;
+    height: 30px;
+   }
+  .main .drop-box #plus{
+     width: 60px;
+     height: 50px;
+     margin: 0px;
+   }
+   .main .drop-box input{
+     width: 80px;
+   }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  header .logo img{
+    width: 180px;
+    margin-left: 10px;
+   }
+   .title-img h1{
+    background: orange;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff; 
+   }
+   .main .drop-box{
+     height: 60vh;
+   }
+   .main .question{
+     margin: 10px 10px;
+     font-size: 1.2rem;
+   }
+   .main .drop-box img{
+     width: 180px;
+     height: 220px;
+   }
+   .main .drop-box .equal{
+    width: 50px;
+    height: 30px;
+   }
+  .main .drop-box #plus{
+     width: 60px;
+     height: 50px;
+     margin: 0px;
+   }
+   .main .drop-box input{
+     width: 80px;
+   }.bottom{
+     display: flex;
+   }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  header .logo img{
+    width: 200px;
+    margin-left: 10px;
+    height: 120px;
+   }
+   .title-img img{
+     width: 50%;
+     border-radius: 12px;
+   }
+   .main .question{
+     margin: 0px ;
+     font-size: 1.2rem;
+   }
+   .main .drop-box {
+     margin: 0;
+   }
+   .main .drop-box img{
+     width: 300px;
+     height: 300px;
+     padding: 0;
+     margin: 0;
+   }
+   .main .drop-box .equal{
+    width: 50px;
+    height: 30px;
+   }
+  .main .drop-box #plus{
+     width: 60px;
+     height: 50px;
+     margin: 0px;
+   }
+   .main .drop-box input{
+     width: 80px;
+   }.bottom{
+     display: flex;
+   }
+}
+button{
+    font-family: 'Akronim', cursive;
+    outline: none;
+    border: none;
+    background-color: #003f88;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 10px 10px 20px black;
+    font-size: 1.5rem;
+}
+/* Extra large devices (large laptops and desktops, 1800px and up) */
+    @media (min-width: 1800px) { 
+      header .logo img{
+        width: 300px;
+        margin-left: 10px;
+       }
+       .title-img img{
+         width: 40%;
+       }
+       .main .question{
+         margin: 20px;
+         font-size: 1.8rem;
+       }
+       .main .drop-box img{
+         width: 450px;
+         height: 450px;
+       }
+       .main .drop-box .equal{
+        width: 80px;
+        height: 30px;
+        margin-right: 20px;
+       }
+      .main .drop-box #plus{
+         width: 80px;
+         height: 60px;
+         margin: 0px;
+       }
+     .bottom img{
+       width: 160px;
+       height: 160px;
+     }.bottom{
+     display: flex;
+   }
+
+     }
+    

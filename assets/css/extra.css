@@ -1,0 +1,48 @@
+.flex{
+  display: flex;  
+}
+.flex-justify-center{
+    justify-content: center;
+}
+.flex-justify-around{
+    justify-content: space-around;
+}
+.flex-justify-between{
+    justify-content: space-between;
+}
+.flex-justify-evenly{
+    justify-content: space-evenly;
+}
+.flex-align-center{
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+.m5{
+    margin: 5px;
+}
+.m10{
+    margin: 10px;
+}
+.m15{
+    margin: 15px;
+}
+.m20{
+    margin: 20px;
+}
+.m50{
+    margin: 50px;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.mt-20{
+    margin-top: 20px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Opposite an excerise by Tec Education for kids">
+    <title>Parts of Computer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/extra.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+<body>
+
+<div class="container">
+    <header class="flex flex-align-center">
+        <div class="logo">
+            <img src="./assets/images/logo.png" alt="Tec Logo" >      
+        </div>
+        <div class="title-img flex flex-align-center">
+            <h1 style="background-color: #003f88;">Parts Of Computer</h1>
+        </div>
+    </header>
+    <div class="main">
+        <div class="drop-box flex flex-justify-evenly m20 flex-align-center text-center">
+            <div style="margin-bottom: 20px;">
+                <div class="title">
+                    
+                    <h2>select anyone option</h2>
+                    <div class="drop" id="drop" ans="wo">    </div> 
+                   <img id="gif" src="./assets/images/right check.gif" alt="" style="display: none;">
+                </div>
+                <img src="./assets/images/computer1.gif" alt="big" draggable="false"  onclick="pronouce(this)" id="img1" class="img1">
+            </div>
+           </div>
+        <div class="bottom">
+            <button  id="ye" class="dragdrop">Mouse</button>
+            <button  id="wo" class="dragdrop">Computer</button>
+            <button id="wo" class="dragdrop">Keyboard</button>
+            <button id="ye" class="dragdrop">CPU</button>
+
+<!-- 
+     <img src="./assets/images/ye.png" alt="" id="ye" class="dragdrop">    
+     <img src="./assets/images/wo.png" alt="" id="wo" class="dragdrop">     -->
+        </div>
+    </div>
+  
+</div>
+
+    <!-- Scripts -->
+    <script src="./assets/js/jquery-1.12.min.js"></script>
+    <script src="./assets/js/draganddrop.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
