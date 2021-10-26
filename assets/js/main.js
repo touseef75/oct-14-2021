@@ -11,16 +11,17 @@ var opposite_word = [
 },
 {
   title : ' select anyone option',
-  ans : 'ye',
+  ans : 'ji',
   img : './assets/images/36440-pc-animation.gif'
 },
 {
   title : 'select anyone option',
-  ans : 'wo',
+  ans : 'le',
   img : './assets/images/keyboard.gif'
 }
 ]
 let x=0;
+let audio = document.getElementById("audio");
 let img1 = document.getElementById('img1')
 let bottom = document.querySelector('.bottom')
 let drop = document.querySelector('.drop')
@@ -41,6 +42,7 @@ $(function() {
       console.log(img)
       if(drop_id === drag_id ){
         x++;
+        audio.play();
         if ( x == opposite_word.length){
           x = 0 ;
         }else{
