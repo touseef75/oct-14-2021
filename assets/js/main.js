@@ -17,7 +17,7 @@ var opposite_word = [
 {
   title : 'select anyone option',
   ans : 'le',
-  img : './assets/images/keyboard.gif'
+  img : './assets/images/keyboard-removebg-preview.png'
 }
 ]
 let x=0;
