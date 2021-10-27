@@ -46,7 +46,8 @@ $(function() {
         if ( x == opposite_word.length){
           x = 0 ;
         }else{
-          document.getElementById('gif').style.display = 'block'
+          document.getElementById('gif2').style.display = 'none';
+          document.getElementById('gif').style.display = 'block';
           if(drop_id.includes('ye')){
             img.appendTo(droptarget);
           }else{
