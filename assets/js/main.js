@@ -1,21 +1,21 @@
 var opposite_word = [
 {
-  title :'select anyone option',
+  title :'Identify the following picture',
   ans : 'wo',
   img : './assets/images/1.png'
 },
 {
-  title : 'select anyone option',
+  title : 'Identify the following picture',
   ans : 'ye',
   img : './assets/images/mouse.gif'
 },
 {
-  title : ' select anyone option',
+  title : 'Identify the following picture',
   ans : 'ji',
-  img : './assets/images/36440-pc-animation.gif'
+  img : './assets/images/cpu.jpg'
 },
 {
-  title : 'select anyone option',
+  title : 'Identify the following picture',
   ans : 'le',
   img : './assets/images/keyboard-removebg-preview.png'
 }
@@ -25,7 +25,7 @@ let audio = document.getElementById("audio");
 let img1 = document.getElementById('img1')
 let bottom = document.querySelector('.bottom')
 let drop = document.querySelector('.drop')
-let title = document.querySelector('.title h2')
+let title = document.querySelector('.title h2');
 $(function() {
   $('.drag').draggable();
   $('.dragdrop').draggable({
@@ -58,7 +58,7 @@ $(function() {
           },2000)
         }
     }else {
-      alert('Warning Wrong Answer');
+     document.getElementById('gif2').style.display = 'block'
     }
 
     }

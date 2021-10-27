@@ -95,6 +95,11 @@ height: 80px;
   width: 50px;
   height: 40px;
 }
+#gif2{
+  width: 50px;
+  height: 40px;
+  margin-left: 100px;
+}
 /* Media Querys */
 /* Extra smaller devices (phones, 320px and down) */
 @media only screen and (max-width: 320px) {
